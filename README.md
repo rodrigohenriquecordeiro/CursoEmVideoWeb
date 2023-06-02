@@ -1,5 +1,5 @@
 # CursoEmVideoWeb
-Exercícios do Curso em Vídeo sobre HTML5, CSS3 e JavaScrip do Professor Gustavo Guanabara
+Exercícios do Curso em Vídeo sobre HTML5, CSS3 e JavaScript do Professor Gustavo Guanabara
 
 <a href="https://rodrigohenriquecordeiro.github.io/CursoEmVideoWeb/html-css/exercicios/modulo-01/ex001">Executar Exercício 001</a>
 <a href="https://rodrigohenriquecordeiro.github.io/CursoEmVideoWeb/html-css/exercicios/modulo-01/ex002">Executar Exercício 002</a>
