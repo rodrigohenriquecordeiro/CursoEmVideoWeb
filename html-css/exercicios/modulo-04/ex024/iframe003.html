@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2 px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis eos libero culpa odio optio eligendi officia quas qui provident! Iure sint reprehenderit quia architecto minima cupiditate quae cum nostrum.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum obcaecati voluptates fugiat, in quam perspiciatis culpa ratione! Qui architecto aliquid incidunt odio vero minus placeat ad numquam excepturi, neque porro?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sed voluptates, quisquam rerum, blanditiis cumque nihil aliquam itaque ipsam veritatis ad deserunt, quae excepturi! Esse necessitatibus id libero iure reiciendis!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint laborum quaerat excepturi odio doloribus similique veritatis quibusdam, nesciunt temporibus, impedit assumenda distinctio error maiores. Porro ipsam officia laudantium incidunt autem.</p>">
+        <p>Infelizmente seu navegador não é compatível</p>
+    </iframe>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum obcaecati voluptates fugiat, in quam perspiciatis culpa ratione! Qui architecto aliquid incidunt odio vero minus placeat ad numquam excepturi, neque porro?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sed voluptates, quisquam rerum, blanditiis cumque nihil aliquam itaque ipsam veritatis ad deserunt, quae excepturi! Esse necessitatibus id libero iure reiciendis!</p>
+
+</body>
+</html>
